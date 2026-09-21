@@ -1,0 +1,302 @@
+[
+  {
+    "business_id": "BIZ_002",
+    "business_name": "Mama Titi Provisions",
+    "business_category": "Groceries",
+    "joined_date": "2025-11-03",
+    "monthly_performance": [
+      {
+        "month": "July 2026",
+        "turnover_gross": 850000.50,
+        "net_profit": 120000.00,
+        "total_orders": 210,
+        "active_inventory_items": 89
+      },
+      {
+        "month": "August 2026",
+        "turnover_gross": 790000.00,
+        "net_profit": 95000.00,
+        "total_orders": 198,
+        "active_inventory_items": 92
+      }
+    ],
+    "app_engagement_metrics": {
+      "most_used_feature": "Sales POS",
+      "payment_method_preference": "Cash",
+      "average_daily_logins": 3
+    }
+  },
+  {
+    "business_id": "BIZ_003",
+    "business_name": "De Crown Bar & Lounge",
+    "business_category": "Hospitality",
+    "joined_date": "2026-03-10",
+    "monthly_performance": [
+      {
+        "month": "July 2026",
+        "turnover_gross": 2300000,
+        "net_profit": 680000,
+        "total_orders": 540,
+        "active_inventory_items": 65
+      },
+      {
+        "month": "August 2026",
+        "turnover_gross": 3100000,
+        "net_profit": 920000,
+        "total_orders": 710,
+        "active_inventory_items": 70
+      }
+    ],
+    "app_engagement_metrics": {
+      "most_used_feature": "Shift Tracking",
+      "payment_method_preference": "POS",
+      "average_daily_logins": 12
+    }
+  },
+  {
+    "business_id": "BIZ_004",
+    "business_name": "Bright Future Pharmacy",
+    "business_category": "Pharmacy",
+    "joined_date": "2024-09-21",
+    "monthly_performance": [
+      {
+        "month": "July 2026",
+        "turnover_gross": 1750000.75,
+        "net_profit": 410000,
+        "total_orders": 260,
+        "active_inventory_items": 310
+      },
+      {
+        "month": "August 2026",
+        "turnover_gross": 1820000,
+        "net_profit": 395000,
+        "total_orders": 255,
+        "active_inventory_items": 305
+      }
+    ],
+    "app_engagement_metrics": {
+      "most_used_feature": "Inventory Alerts",
+      "payment_method_preference": "Bank Transfer",
+      "average_daily_logins": 6
+    }
+  },
+  {
+    "business_id": "BIZ_005",
+    "business_name": "TopNotch Fashion House",
+    "business_category": "Fashion",
+    "joined_date": "2026-02-01",
+    "monthly_performance": [
+      {
+        "month": "July 2026",
+        "turnover_gross": 950000,
+        "net_profit": 250000,
+        "total_orders": 140,
+        "active_inventory_items": 120
+      },
+      {
+        "month": "August 2026",
+        "turnover_gross": 1250000,
+        "net_profit": 330000,
+        "total_orders": 180,
+        "active_inventory_items": 135
+      }
+    ],
+    "app_engagement_metrics": {
+      "most_used_feature": "Customer Records",
+      "payment_method_preference": "Transfer",
+      "average_daily_logins": 5
+    }
+  },
+  {
+    "business_id": "BIZ_006",
+    "business_name": "Ikorodu Fitness Gym",
+    "business_category": "Gym",
+    "joined_date": "2025-06-15",
+    "monthly_performance": [
+      {
+        "month": "July 2026",
+        "turnover_gross": 600000,
+        "net_profit": 180000,
+        "total_orders": 90,
+        "active_inventory_items": 25
+      },
+      {
+        "month": "August 2026",
+        "turnover_gross": 580000,
+        "net_profit": 150000,
+        "total_orders": 85,
+        "active_inventory_items": 25
+      }
+    ],
+    "app_engagement_metrics": {
+      "most_used_feature": "Membership Plans",
+      "payment_method_preference": "Cash",
+      "average_daily_logins": 2
+    }
+  },
+  {
+    "business_id": "BIZ_007",
+    "business_name": "Divine Bread Bakery",
+    "business_category": "Bakery",
+    "joined_date": "2026-05-11",
+    "monthly_performance": [
+      {
+        "month": "July 2026",
+        "turnover_gross": 420000,
+        "net_profit": 95000,
+        "total_orders": 300,
+        "active_inventory_items": 40
+      },
+      {
+        "month": "August 2026",
+        "turnover_gross": 460000,
+        "net_profit": 110000,
+        "total_orders": 330,
+        "active_inventory_items": 42
+      }
+    ],
+    "app_engagement_metrics": {
+      "most_used_feature": "Sales POS",
+      "payment_method_preference": "Cash",
+      "average_daily_logins": 7
+    }
+  },
+  {
+    "business_id": "BIZ_008",
+    "business_name": "Swift Gadgets Store",
+    "business_category": "Electronics",
+    "joined_date": "2025-12-20",
+    "monthly_performance": [
+      {
+        "month": "July 2026",
+        "turnover_gross": 3200000,
+        "net_profit": 720000,
+        "total_orders": 280,
+        "active_inventory_items": 110
+      },
+      {
+        "month": "August 2026",
+        "turnover_gross": 2800000,
+        "net_profit": 600000,
+        "total_orders": 240,
+        "active_inventory_items": 105
+      }
+    ],
+    "app_engagement_metrics": {
+      "most_used_feature": "Audit Logs",
+      "payment_method_preference": "POS",
+      "average_daily_logins": 9
+    }
+  },
+  {
+    "business_id": "BIZ_009",
+    "business_name": "GreenLeaf Agro Mart",
+    "business_category": "Agriculture",
+    "joined_date": "2026-04-02",
+    "monthly_performance": [
+      {
+        "month": "July 2026",
+        "turnover_gross": 1500000,
+        "net_profit": 300000,
+        "total_orders": 190,
+        "active_inventory_items": 75
+      },
+      {
+        "month": "August 2026",
+        "turnover_gross": 1700000,
+        "net_profit": 350000,
+        "total_orders": 210,
+        "active_inventory_items": 80
+      }
+    ],
+    "app_engagement_metrics": {
+      "most_used_feature": "Inventory Tracking",
+      "payment_method_preference": "Transfer",
+      "average_daily_logins": 4
+    }
+  },
+  {
+    "business_id": "BIZ_010",
+    "business_name": "Royal Hotel Suites",
+    "business_category": "Hotel",
+    "joined_date": "2025-08-14",
+    "monthly_performance": [
+      {
+        "month": "July 2026",
+        "turnover_gross": 5000000,
+        "net_profit": 1500000,
+        "total_orders": 120,
+        "active_inventory_items": 60
+      },
+      {
+        "month": "August 2026",
+        "turnover_gross": 6200000,
+        "net_profit": 2100000,
+        "total_orders": 145,
+        "active_inventory_items": 62
+      }
+    ],
+    "app_engagement_metrics": {
+      "most_used_feature": "Reservations",
+      "payment_method_preference": "Card",
+      "average_daily_logins": 10
+    }
+  },
+
+  {
+    "business_id": "BIZ_011",
+    "business_name": "Kemi Cosmetics",
+    "business_category": "Beauty",
+    "joined_date": "2026-06-01",
+    "monthly_performance": [
+      {
+        "month": "July 2026",
+        "turnover_gross": 300000,
+        "net_profit": 50000,
+        "total_orders": 75,
+        "active_inventory_items": 55
+      },
+      {
+        "month": "August 2026",
+        "turnover_gross": 450000,
+        "net_profit": 90000,
+        "total_orders": 110,
+        "active_inventory_items": 60
+      }
+    ],
+    "app_engagement_metrics": {
+      "most_used_feature": "Customer Records",
+      "payment_method_preference": "Cash",
+      "average_daily_logins": 2
+    }
+  },
+
+  {
+    "business_id": "BIZ_012",
+    "business_name": "QuickFix Repairs",
+    "business_category": "Services",
+    "joined_date": "2025-01-18",
+    "monthly_performance": [
+      {
+        "month": "July 2026",
+        "turnover_gross": 780000,
+        "net_profit": 210000,
+        "total_orders": 130,
+        "active_inventory_items": 20
+      },
+      {
+        "month": "August 2026",
+        "turnover_gross": 720000,
+        "net_profit": 180000,
+        "total_orders": 115,
+        "active_inventory_items": 22
+      }
+    ],
+    "app_engagement_metrics": {
+      "most_used_feature": "Staff Logs",
+      "payment_method_preference": "Transfer",
+      "average_daily_logins": 4
+    }
+  }
+
+]

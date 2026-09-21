@@ -1,0 +1,41 @@
+{
+  "total_unique_products": 20,
+  "inventory_value": 5456811.38,
+  "low_stock_count": 11,
+  "negative_stock_count": 3,
+  "zero_stock_count": 2,
+  "missing_low_stock_threshold_count": 2,
+  "system_status_counts": {
+    "active": 16,
+    "disabled": 2,
+    "pending": 2
+  },
+  "business_health": [
+    {
+      "business_id": "BIZ_1",
+      "product_count": 8,
+      "inventory_value": 3847661.38,
+      "low_stock_count": 4,
+      "negative_stock_count": 0,
+      "zero_stock_count": 0
+    },
+    {
+      "business_id": "BIZ_2",
+      "product_count": 6,
+      "inventory_value": 1301000.0,
+      "low_stock_count": 3,
+      "negative_stock_count": 1,
+      "zero_stock_count": 1
+    },
+    {
+      "business_id": "BIZ_3",
+      "product_count": 6,
+      "inventory_value": 308150.0,
+      "low_stock_count": 4,
+      "negative_stock_count": 2,
+      "zero_stock_count": 1
+    }
+  ],
+  "product_movement_metrics_available": false,
+  "product_movement_limitation": "Transaction logs do not contain product_id or quantity sold, and inventory has no sales history. Therefore units sold, stock turnover rate, fast-moving items, and sales-based dead stock cannot be reliably calculated."
+}

@@ -1,0 +1,69 @@
+{
+  "validation_status": "PASS",
+  "checks": [
+    {
+      "check": "transaction_exact_duplicates_removed",
+      "expected": 2,
+      "actual": 2,
+      "status": true
+    },
+    {
+      "check": "inventory_exact_duplicates_removed",
+      "expected": 4,
+      "actual": 4,
+      "status": true
+    },
+    {
+      "check": "gross_revenue_reconciles",
+      "expected": 801981.87,
+      "actual": 801981.87,
+      "status": true
+    },
+    {
+      "check": "net_sales_reconciles",
+      "expected": 793481.87,
+      "actual": 793481.87,
+      "status": true
+    },
+    {
+      "check": "net_profit_reconciles",
+      "expected": 221268.25,
+      "actual": 221268.25,
+      "status": true
+    },
+    {
+      "check": "average_transaction_value_reconciles",
+      "expected": 41762.2,
+      "actual": 41762.2,
+      "status": true
+    },
+    {
+      "check": "inventory_value_reconciles",
+      "expected": 5456811.38,
+      "actual": 5456811.38,
+      "status": true
+    },
+    {
+      "check": "product_movement_metrics_not_fabricated",
+      "expected": false,
+      "actual": false,
+      "status": true
+    }
+  ],
+  "data_quality_summary": {
+    "transaction_records_after_exact_deduplication": 23,
+    "inventory_records_after_exact_deduplication": 20,
+    "invalid_transaction_dates": 2,
+    "missing_business_names_after_recovery": 0,
+    "negative_sales_transactions": 3,
+    "zero_value_transactions": 1,
+    "negative_stock_products": 3
+  },
+  "interpretation_rules": [
+    "Positive sales are used for gross revenue and average positive transaction value.",
+    "Negative sales are retained as returns/adjustments and included in net sales and profit.",
+    "Zero-value transactions are retained for auditability but excluded from average transaction value.",
+    "Invalid transaction dates are excluded from monthly trends but retained in overall financial KPIs.",
+    "Product-level sales movement metrics are not calculated because the source schema does not support them."
+  ]
+}

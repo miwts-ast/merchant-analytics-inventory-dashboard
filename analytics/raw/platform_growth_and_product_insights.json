@@ -1,0 +1,269 @@
+[
+  {
+    "platform_wide_kpis": {
+      "total_processed_turnover_ytd": 84500000,
+      "total_active_businesses": 48,
+      "average_business_monthly_turnover": 4150000
+    },
+    "feature_adoption_rates": [
+      { "feature_name": "POS Checkout Module", "adoption_percentage": 92.5, "status": "High Engagement" },
+      { "feature_name": "Inventory Low Stock Alerts", "adoption_percentage": 78, "status": "Moderate Engagement" }
+    ],
+    "merchant_pain_points_data": {
+      "average_dead_stock_value_per_merchant": 320000,
+      "description": "Dead stock still high"
+    },
+    "report_generated_at": "2026-08-01"
+  },
+  {
+    "platform_wide_kpis": {
+      "total_processed_turnover_ytd": "91000000",
+      "total_active_businesses": 52,
+      "average_business_monthly_turnover": null
+    },
+    "feature_adoption_rates": [
+      { "feature_name": "POS checkout module", "adoption_percentage": "90%", "status": "High engagement" },
+      { "feature_name": "Supplier Ledger", "adoption_percentage": 18.2 }
+    ],
+    "merchant_pain_points_data": {
+      "average_dead_stock_value_per_merchant": 400000
+    },
+    "report_generated_at": "01/08/2026"
+  },
+  {
+    "platform_wide_kpis": {
+      "total_processed_turnover_ytd": 78000000,
+      "total_active_businesses": null,
+      "average_business_monthly_turnover": 3900000
+    },
+    "feature_adoption_rates": [],
+    "merchant_pain_points_data": null,
+    "report_generated_at": "2026/08/02"
+  },
+  {
+    "platform_wide_kpis": {},
+    "feature_adoption_rates": [
+      { "feature_name": "Inventory Alerts", "adoption_percentage": 81.3, "status": "moderate engagement" }
+    ],
+    "merchant_pain_points_data": {
+      "average_dead_stock_value_per_merchant": 290000,
+      "description": null
+    }
+  },
+  {
+    "platform_wide_kpis": {
+      "total_processed_turnover_ytd": 100500000,
+      "total_active_businesses": 60
+    },
+    "feature_adoption_rates": [
+      { "feature_name": "POS Checkout", "adoption_percentage": 95.1, "status": "High Engagement" },
+      { "feature_name": "Inventory Low-Stock Alerts", "adoption_percentage": 0, "status": "Unknown" }
+    ],
+    "merchant_pain_points_data": {
+      "average_dead_stock_value_per_merchant": -50000,
+      "description": "Negative value due to data error"
+    },
+    "report_generated_at": "Aug 3, 2026"
+  },
+  {
+    "platform_wide_kpis": {
+      "total_processed_turnover_ytd": 87000000.55,
+      "total_active_businesses": 49,
+      "average_business_monthly_turnover": 4200000.75
+    },
+    "feature_adoption_rates": null,
+    "merchant_pain_points_data": {
+      "average_dead_stock_value_per_merchant": 310000,
+      "description": "Stable"
+    },
+    "report_generated_at": "2026-08-04T10:30:00Z"
+  },
+  {
+    "platform_wide_kpis": {
+      "total_processed_turnover_ytd": 0,
+      "total_active_businesses": 0,
+      "average_business_monthly_turnover": 0
+    },
+    "feature_adoption_rates": [
+      { "feature_name": "", "adoption_percentage": null, "status": "" }
+    ],
+    "merchant_pain_points_data": {},
+    "report_generated_at": null
+  },
+  {
+    "platform_wide_kpis": {
+      "total_processed_turnover_ytd": 95000000,
+      "total_active_businesses": 55,
+      "average_business_monthly_turnover": 4300000
+    },
+    "feature_adoption_rates": [
+      { "feature_name": "Supplier Management Ledger", "adoption_percentage": 20.5, "status": "Needs improvement" },
+      { "feature_name": "Customer Records", "adoption_percentage": 65.4, "status": "Moderate" }
+    ],
+    "merchant_pain_points_data": {
+      "average_dead_stock_value_per_merchant": 350000,
+      "description": "Stock rotation issue"
+    },
+    "report_generated_at": "2026-08-05"
+  },
+  {
+    "platform_wide_kpis": null,
+    "feature_adoption_rates": [
+      { "feature_name": "POS", "adoption_percentage": 88.8, "status": "High" }
+    ],
+    "merchant_pain_points_data": {
+      "average_dead_stock_value_per_merchant": "300k",
+      "description": "format issue"
+    }
+  },
+  {
+    "platform_wide_kpis": {
+      "total_processed_turnover_ytd": 89000000,
+      "total_active_businesses": "50 businesses",
+      "average_business_monthly_turnover": 4100000
+    },
+    "feature_adoption_rates": [
+      { "feature_name": "Inventory Low-Stock Alerts", "adoption_percentage": 77.7, "status": "Moderate Engagement" }
+    ],
+    "merchant_pain_points_data": {
+      "average_dead_stock_value_per_merchant": 330000,
+      "description": "ok"
+    },
+    "report_generated_at": "05-08-2026"
+  },
+
+  {
+    "platform_wide_kpis": {
+      "total_processed_turnover_ytd": 88000000,
+      "total_active_businesses": 51,
+      "average_business_monthly_turnover": 4050000
+    },
+    "feature_adoption_rates": [
+      { "feature_name": "Inventory Alerts", "adoption_percentage": 76.5 }
+    ],
+    "merchant_pain_points_data": {
+      "average_dead_stock_value_per_merchant": null,
+      "description": "missing value"
+    }
+  },
+  {
+    "platform_wide_kpis": {
+      "total_processed_turnover_ytd": 91050000,
+      "total_active_businesses": 53,
+      "average_business_monthly_turnover": 4180000
+    },
+    "feature_adoption_rates": [
+      { "feature_name": "POS Checkout Module", "adoption_percentage": 91.2, "status": "High Engagement" }
+    ],
+    "merchant_pain_points_data": {
+      "average_dead_stock_value_per_merchant": 340000
+    }
+  },
+  {
+    "platform_wide_kpis": {
+      "total_processed_turnover_ytd": 93000000
+    },
+    "feature_adoption_rates": [
+      { "feature_name": "Supplier Mgmt Ledger", "adoption_percentage": 15 }
+    ],
+    "merchant_pain_points_data": null,
+    "report_generated_at": "2026-08-08"
+  },
+  {
+    "platform_wide_kpis": {
+      "total_processed_turnover_ytd": 87000000,
+      "total_active_businesses": 49,
+      "average_business_monthly_turnover": 4100000
+    },
+    "feature_adoption_rates": "invalid format",
+    "merchant_pain_points_data": {
+      "average_dead_stock_value_per_merchant": 320000,
+      "description": "ok"
+    }
+  },
+  {
+    "platform_wide_kpis": {
+      "total_processed_turnover_ytd": 90500000,
+      "total_active_businesses": 54,
+      "average_business_monthly_turnover": 4220000
+    },
+    "feature_adoption_rates": [
+      { "feature_name": "POS Checkout Module", "adoption_percentage": 93.5, "status": "High Engagement" }
+    ],
+    "merchant_pain_points_data": {
+      "average_dead_stock_value_per_merchant": 360000,
+      "description": "rising trend"
+    },
+    "report_generated_at": "2026-08-10"
+  },
+  {
+    "platform_wide_kpis": {
+      "total_processed_turnover_ytd": 89999999.99,
+      "total_active_businesses": 50,
+      "average_business_monthly_turnover": 4199999.99
+    },
+    "feature_adoption_rates": [],
+    "merchant_pain_points_data": {
+      "average_dead_stock_value_per_merchant": 0,
+      "description": "unlikely"
+    }
+  },
+  {
+    "platform_wide_kpis": {
+      "total_processed_turnover_ytd": 87000000,
+      "total_active_businesses": 48,
+      "average_business_monthly_turnover": 4150000
+    },
+    "feature_adoption_rates": [
+      { "feature_name": "Customer Records", "adoption_percentage": 68.5, "status": "Moderate" }
+    ],
+    "merchant_pain_points_data": {
+      "average_dead_stock_value_per_merchant": 315000,
+      "description": "slight drop"
+    },
+    "report_generated_at": "2026-08-12"
+  },
+  {
+    "platform_wide_kpis": {
+      "total_processed_turnover_ytd": 92000000,
+      "total_active_businesses": 56,
+      "average_business_monthly_turnover": 4300000
+    },
+    "feature_adoption_rates": [
+      { "feature_name": "POS Checkout Module", "adoption_percentage": null, "status": "unknown" }
+    ],
+    "merchant_pain_points_data": {
+      "average_dead_stock_value_per_merchant": 370000
+    }
+  },
+  {
+    "platform_wide_kpis": {
+      "total_processed_turnover_ytd": 94000000,
+      "total_active_businesses": 58,
+      "average_business_monthly_turnover": 4350000
+    },
+    "feature_adoption_rates": [
+      { "feature_name": "Inventory Low-Stock Alerts", "adoption_percentage": 80.2, "status": "Moderate Engagement" }
+    ],
+    "merchant_pain_points_data": {
+      "average_dead_stock_value_per_merchant": 380000,
+      "description": "increasing"
+    },
+    "report_generated_at": "13 Aug 2026"
+  },
+  {
+    "platform_wide_kpis": {
+      "total_processed_turnover_ytd": 96000000,
+      "total_active_businesses": 60,
+      "average_business_monthly_turnover": 4400000
+    },
+    "feature_adoption_rates": [
+      { "feature_name": "Supplier Management Ledger", "adoption_percentage": 17.5, "status": "Needs Improvement" }
+    ],
+    "merchant_pain_points_data": {
+      "average_dead_stock_value_per_merchant": 390000,
+      "description": "consistent increase"
+    },
+    "report_generated_at": "2026.08.14"
+  }
+]

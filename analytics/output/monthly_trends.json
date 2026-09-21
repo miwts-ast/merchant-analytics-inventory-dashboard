@@ -1,0 +1,50 @@
+[
+  {
+    "month": "2026-01",
+    "gross_revenue": 20989.68,
+    "net_sales": 20989.68,
+    "net_profit": 7224.59,
+    "positive_transaction_count": 1,
+    "transaction_count": 1
+  },
+  {
+    "month": "2026-04",
+    "gross_revenue": 0.0,
+    "net_sales": -3000.0,
+    "net_profit": -3000.0,
+    "positive_transaction_count": 0,
+    "transaction_count": 2
+  },
+  {
+    "month": "2026-05",
+    "gross_revenue": 25000.0,
+    "net_sales": 25000.0,
+    "net_profit": 9000.0,
+    "positive_transaction_count": 2,
+    "transaction_count": 2
+  },
+  {
+    "month": "2026-07",
+    "gross_revenue": 147000.5,
+    "net_sales": 147000.5,
+    "net_profit": 34800.5,
+    "positive_transaction_count": 3,
+    "transaction_count": 3
+  },
+  {
+    "month": "2026-08",
+    "gross_revenue": 275191.69,
+    "net_sales": 275191.69,
+    "net_profit": 81143.16,
+    "positive_transaction_count": 6,
+    "transaction_count": 7
+  },
+  {
+    "month": "2026-09",
+    "gross_revenue": 263800.0,
+    "net_sales": 258300.0,
+    "net_profit": 66100.0,
+    "positive_transaction_count": 5,
+    "transaction_count": 6
+  }
+]

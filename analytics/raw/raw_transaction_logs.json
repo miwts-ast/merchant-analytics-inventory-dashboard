@@ -1,0 +1,252 @@
+[
+  {
+    "order_id": "ORD_1001",
+    "business_id": "BIZ_3",
+    "business_name": "Ikeja Provisions Mart",
+    "business_category": "Groceries",
+    "gross_sale_amount": 20989.68,
+    "base_cost_amount": 13765.09,
+    "payment_method": "bank_transfer",
+    "transaction_timestamp": "2026-01-29 00:47:00"
+  },
+  {
+    "order_id": "ORD_1002",
+    "business_id": "BIZ_3",
+    "business_name": "Ikeja Provisions Mart",
+    "business_category": "Groceries",
+    "gross_sale_amount": 44491.69,
+    "base_cost_amount": 27048.53,
+    "payment_method": "Bank Transfer",
+    "transaction_timestamp": "2026-08-17 17:05:00"
+  },
+  {
+    "order_id": "ORD_1015",
+    "business_id": "BIZ_1",
+    "business_name": "Alaba Electronics Hub",
+    "business_category": "Electronics",
+    "gross_sale_amount": -1500.00,
+    "base_cost_amount": 0.00,
+    "payment_method": "Cash",
+    "transaction_timestamp": "2026-04-12 14:22:00"
+  },
+  {
+    "order_id": "ORD_1033",
+    "business_id": "BIZ_2",
+    "business_name": null,
+    "business_category": "Apparel",
+    "gross_sale_amount": 12500.00,
+    "base_cost_amount": 8000.00,
+    "payment_method": "POS/Card",
+    "transaction_timestamp": "2026-05-19 09:41:00"
+  },
+  {
+    "order_id": "ORD_1050",
+    "business_id": "BIZ_1",
+    "business_name": "Alaba Electronics Hub",
+    "business_category": "  Electronics ",
+    "gross_sale_amount": 35000.00,
+    "base_cost_amount": 22000.00,
+    "payment_method": "NULL",
+    "transaction_timestamp": "2026-02-31 11:15:00"
+  },
+  {
+    "order_id": "ORD_1001",
+    "business_id": "BIZ_3",
+    "business_name": "Ikeja Provisions Mart",
+    "business_category": "Groceries",
+    "gross_sale_amount": 20989.68,
+    "base_cost_amount": 13765.09,
+    "payment_method": "bank_transfer",
+    "transaction_timestamp": "2026-01-29 00:47:00"
+  },
+  {
+    "order_id": "ORD_1002",
+    "business_id": "BIZ_3",
+    "business_name": "Ikeja Provisions Mart",
+    "business_category": "Groceries",
+    "gross_sale_amount": 44491.69,
+    "base_cost_amount": 27048.53,
+    "payment_method": "Bank Transfer",
+    "transaction_timestamp": "2026-08-17 17:05:00"
+  },
+  {
+    "order_id": "ORD_1003",
+    "business_id": "BIZ_1",
+    "business_name": "Alaba Electronics Hub",
+    "business_category": "Electronics",
+    "gross_sale_amount": -1500.00,
+    "base_cost_amount": 0.00,
+    "payment_method": "Cash",
+    "transaction_timestamp": "2026-04-12 14:22:00"
+  },
+  {
+    "order_id": "ORD_1004",
+    "business_id": "BIZ_2",
+    "business_name": null,
+    "business_category": "Apparel",
+    "gross_sale_amount": 12500.00,
+    "base_cost_amount": 8000.00,
+    "payment_method": "POS/Card",
+    "transaction_timestamp": "2026-05-19 09:41:00"
+  },
+  {
+    "order_id": "ORD_1005",
+    "business_id": "BIZ_1",
+    "business_name": "Alaba Electronics Hub",
+    "business_category": "  Electronics ",
+    "gross_sale_amount": 35000.00,
+    "base_cost_amount": 22000.00,
+    "payment_method": "NULL",
+    "transaction_timestamp": "2026-02-31 11:15:00"
+  },
+  {
+    "order_id": "ORD_1006",
+    "business_id": "BIZ_2",
+    "business_name": "Balogun Fashion Empire",
+    "business_category": "Apparel",
+    "gross_sale_amount": 18500.00,
+    "base_cost_amount": 11000.00,
+    "payment_method": "pos/card",
+    "transaction_timestamp": "2026-07-02 10:30:00"
+  },
+  {
+    "order_id": "ORD_1007",
+    "business_id": "BIZ_3",
+    "business_name": "Ikeja Provisions Mart",
+    "business_category": "Groceries",
+    "gross_sale_amount": 8500.50,
+    "base_cost_amount": 6200.00,
+    "payment_method": "Cash",
+    "transaction_timestamp": "2026-07-15 19:12:00"
+  },
+  {
+    "order_id": "ORD_1008",
+    "business_id": "BIZ_1",
+    "business_name": "Alaba Electronics Hub",
+    "business_category": "Electronics",
+    "gross_sale_amount": 120000.00,
+    "base_cost_amount": 95000.00,
+    "payment_method": "Bank Transfer",
+    "transaction_timestamp": "2026-07-22 14:05:00"
+  },
+  {
+    "order_id": "ORD_1009",
+    "business_id": "BIZ_2",
+    "business_name": "Balogun Fashion Empire",
+    "business_category": "Apparel",
+    "gross_sale_amount": 0.00,
+    "base_cost_amount": 4500.00,
+    "payment_method": "cash",
+    "transaction_timestamp": "2026-08-01 08:00:00"
+  },
+  {
+    "order_id": "ORD_1010",
+    "business_id": "BIZ_3",
+    "business_name": "Ikeja Provisions Mart",
+    "business_category": "Groceries",
+    "gross_sale_amount": 31200.00,
+    "base_cost_amount": 21000.00,
+    "payment_method": "bank_transfer",
+    "transaction_timestamp": "2026-08-05 11:24:00"
+  },
+  {
+    "order_id": "ORD_1011",
+    "business_id": "BIZ_1",
+    "business_name": "Alaba Electronics Hub",
+    "business_category": "Electronics",
+    "gross_sale_amount": 45000.00,
+    "base_cost_amount": 31000.00,
+    "payment_method": "POS/Card",
+    "transaction_timestamp": "2026-08-12 16:45:00"
+  },
+  {
+    "order_id": "ORD_1012",
+    "business_id": "BIZ_2",
+    "business_name": "Balogun Fashion Empire",
+    "business_category": "apparel",
+    "gross_sale_amount": 64000.00,
+    "base_cost_amount": 42000.00,
+    "payment_method": "Bank Transfer",
+    "transaction_timestamp": "2026-08-19 13:20:00"
+  },
+  {
+    "order_id": "ORD_1013",
+    "business_id": "BIZ_3",
+    "business_name": "Ikeja Provisions Mart",
+    "business_category": "Groceries",
+    "gross_sale_amount": 1500.00,
+    "base_cost_amount": 1500.00,
+    "payment_method": "Cash",
+    "transaction_timestamp": "2026-08-25 21:02:00"
+  },
+  {
+    "order_id": "ORD_1014",
+    "business_id": "BIZ_1",
+    "business_name": "Alaba Electronics Hub",
+    "business_category": "Electronics",
+    "gross_sale_amount": 89000.00,
+    "base_cost_amount": 67000.00,
+    "payment_method": "pos/card",
+    "transaction_timestamp": "2026-08-29 10:11:00"
+  },
+  {
+    "order_id": "ORD_1015",
+    "business_id": "BIZ_2",
+    "business_name": "Balogun Fashion Empire",
+    "business_category": "Apparel",
+    "gross_sale_amount": -5500.00,
+    "base_cost_amount": 3000.00,
+    "payment_method": "POS/Card",
+    "transaction_timestamp": "2026-09-01 15:30:00"
+  },
+  {
+    "order_id": "ORD_1016",
+    "business_id": "BIZ_3",
+    "business_name": "Ikeja Provisions Mart",
+    "business_category": "Groceries",
+    "gross_sale_amount": 5400.00,
+    "base_cost_amount": 3800.00,
+    "payment_method": "Cash",
+    "transaction_timestamp": "2026-09-03 09:15:00"
+  },
+  {
+    "order_id": "ORD_1017",
+    "business_id": "BIZ_1",
+    "business_name": "Alaba Electronics Hub",
+    "business_category": "Electronics",
+    "gross_sale_amount": 150000.00,
+    "base_cost_amount": 110000.00,
+    "payment_method": "Bank Transfer",
+    "transaction_timestamp": "2026-09-07 12:00:00"
+  },
+  {
+    "order_id": "ORD_1018",
+    "business_id": "BIZ_2",
+    "business_name": "Balogun Fashion Empire",
+    "business_category": "Apparel",
+    "gross_sale_amount": 27500.00,
+    "base_cost_amount": 18000.00,
+    "payment_method": "bank_transfer",
+    "transaction_timestamp": "2026-09-10 17:40:00"
+  },
+  {
+    "order_id": "ORD_1019",
+    "business_id": "BIZ_3",
+    "business_name": "Ikeja Provisions Mart",
+    "business_category": "Groceries",
+    "gross_sale_amount": 18900.00,
+    "base_cost_amount": 12400.00,
+    "payment_method": "POS/Card",
+    "transaction_timestamp": "2026-09-12 11:55:00"
+  },
+  {
+    "order_id": "ORD_1020",
+    "business_id": "BIZ_1",
+    "business_name": null,
+    "business_category": "Electronics",
+    "gross_sale_amount": 62000.00,
+    "base_cost_amount": 45000.00,
+    "payment_method": "bank_transfer",
+    "transaction_timestamp": "2026-09-14 08:22:00"
+  }
+]
