@@ -1,0 +1,74 @@
+[
+  {
+    "month": "2026-01",
+    "gross_revenue": 20989.68,
+    "net_sales": 20989.68,
+    "net_profit": 7224.59,
+    "positive_transaction_count": 1,
+    "transaction_count": 1,
+    "payment_method": {
+      "bank_transfer": 20989.68
+    }
+  },
+  {
+    "month": "2026-04",
+    "gross_revenue": 0.0,
+    "net_sales": -3000.0,
+    "net_profit": -3000.0,
+    "positive_transaction_count": 0,
+    "transaction_count": 2,
+    "payment_method": {
+      "cash": -3000.0
+    }
+  },
+  {
+    "month": "2026-05",
+    "gross_revenue": 25000.0,
+    "net_sales": 25000.0,
+    "net_profit": 9000.0,
+    "positive_transaction_count": 2,
+    "transaction_count": 2,
+    "payment_method": {
+      "pos_card": 25000.0
+    }
+  },
+  {
+    "month": "2026-07",
+    "gross_revenue": 147000.5,
+    "net_sales": 147000.5,
+    "net_profit": 34800.5,
+    "positive_transaction_count": 3,
+    "transaction_count": 3,
+    "payment_method": {
+      "pos_card": 18500.0,
+      "cash": 8500.5,
+      "bank_transfer": 120000.0
+    }
+  },
+  {
+    "month": "2026-08",
+    "gross_revenue": 275191.69,
+    "net_sales": 275191.69,
+    "net_profit": 81143.16,
+    "positive_transaction_count": 6,
+    "transaction_count": 7,
+    "payment_method": {
+      "bank_transfer": 139691.69,
+      "cash": 1500.0,
+      "pos_card": 134000.0
+    }
+  },
+  {
+    "month": "2026-09",
+    "gross_revenue": 263800.0,
+    "net_sales": 258300.0,
+    "net_profit": 66100.0,
+    "positive_transaction_count": 5,
+    "transaction_count": 6,
+    "payment_method": {
+      "pos_card": 13400.0,
+      "cash": 5400.0,
+      "bank_transfer": 239500.0
+    }
+  }
+]

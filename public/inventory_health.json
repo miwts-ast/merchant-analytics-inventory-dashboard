@@ -1,0 +1,38 @@
+[
+  {
+    "business_id": "BIZ_1",
+    "business_name": "Alaba Electronics Hub",
+    "business_category": "Electronics",
+    "gross_revenue": 536000.0,
+    "returns_adjustments": -3000.0,
+    "net_sales": 533000.0,
+    "total_cost": 392000.0,
+    "net_profit": 141000.0,
+    "net_margin_pct": 26.45,
+    "positive_transaction_count": 7
+  },
+  {
+    "business_id": "BIZ_2",
+    "business_name": "Balogun Fashion Empire",
+    "business_category": "Apparel",
+    "gross_revenue": 135000.0,
+    "returns_adjustments": -5500.0,
+    "net_sales": 129500.0,
+    "total_cost": 94500.0,
+    "net_profit": 35000.0,
+    "net_margin_pct": 27.03,
+    "positive_transaction_count": 5
+  },
+  {
+    "business_id": "BIZ_3",
+    "business_name": "Ikeja Provisions Mart",
+    "business_category": "Groceries",
+    "gross_revenue": 130981.87,
+    "returns_adjustments": 0.0,
+    "net_sales": 130981.87,
+    "total_cost": 85713.62,
+    "net_profit": 45268.25,
+    "net_margin_pct": 34.56,
+    "positive_transaction_count": 7
+  }
+]
