@@ -5,7 +5,7 @@ const NotFound = () => {
     return (
         <Side>
             <div className='flex flex-col min-h-screen items-center justify-center'>
-                <AiFillWarning size={100} className='text-red-600' />
+                <AiFillWarning size={100} className='text-danger' />
                 <h1 className='text-2xl font-semibold'>The requested resource was not found</h1>
             </div>
         </Side>

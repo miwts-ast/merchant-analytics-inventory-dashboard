@@ -3,7 +3,7 @@ import { BiTrendingUp } from 'react-icons/bi'
 
 const Insight = () => {
     return (
-        <div className='bg-white m-2 px-3 py-1.5 rounded-md border-2 border-gray-200 relative'>
+        <div className='bg-card m-2 px-3 py-1.5 rounded-md border-2 border-line relative'>
             <h1 className='font-bold text-xl p-2'><FaRegLightbulb size={20} color='#2563eb' className='inline mr-2' />Key Insights</h1>
             <span className='absolute right-2.5 -mt-8 bg-blue-200 text-blue-600 tracking-tight text-sm rounded-xl px-1.5 py-1 font-semibold'>AI Powered</span>
             <div className='flex gap-5 items-center my-2'>
