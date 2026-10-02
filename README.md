@@ -1,360 +1,144 @@
 # Merchant Analytics & Inventory Intelligence Dashboard
 
-An end-to-end merchant analytics platform that transforms raw transaction and inventory data into validated business insights and structured analytical outputs for an interactive React dashboard.
+An interactive Business Intelligence dashboard for a B2B Sales & Inventory Management platform. It turns raw merchant transaction logs and stock data into clear, filterable insights: revenue, profit margin, average order value, and inventory health.
 
-The project combines **Python-based data processing and analytics** with a **React frontend**, separating the analytics pipeline from the dashboard presentation layer.
+**Live demo:** [add your Vercel/Netlify link here]
 
----
+![Dashboard preview](./screenshots/dashboard.png)
 
-## Project Overview
+## Contents
 
-The Merchant Analytics & Inventory Intelligence Dashboard is designed to help merchants understand business performance, sales trends, and inventory health through a centralized analytical dashboard.
+- [Key features](#key-features)
+- [Tech stack](#tech-stack)
+- [Project structure](#project-structure)
+- [Getting started](#getting-started)
+- [Data pipeline](#data-pipeline)
+- [Business insights](#business-insights)
+- [How filtering works](#how-filtering-works)
+- [Team](#team)
 
-The project follows a data pipeline architecture:
+## Key features
 
-```text
-Raw Transaction & Inventory Data
-              │
-              ▼
-      Python Analytics Pipeline
-              │
-      ┌───────┴────────┐
-      ▼                ▼
- Data Cleaning     KPI & Analysis
-      │                │
-      └───────┬────────┘
-              ▼
-       Validated JSON
-          Outputs
-              │
-              ▼
-       React Dashboard
-              │
-              ▼
-       Merchant Insights
+- **Sales Performance Hub:** gross revenue, net profit margin, and average order value (AOV), with charts for revenue trends.
+- **Inventory Control Center:** product count, inventory value, and stock alerts (low, zero, and negative stock), plus fast-moving vs. dead stock.
+- **Global filtering:** switch between "All" and a specific month, and every KPI and chart updates instantly.
+- **Loading and error states:** the dashboard shows a loader while data is fetched and a clear message if a file fails to load.
+
+## Tech stack
+
+| Layer          | Tools                                |
+| -------------- | ------------------------------------ |
+| Data analytics | Python, Pandas                       |
+| Frontend       | React (Vite), Tailwind CSS, Recharts |
+| Deployment     | Vercel / Netlify                     |
+
+## Project structure
+
 ```
-
-The analytics layer produces structured JSON outputs that can be consumed by the React frontend to power dashboard cards, charts, tables, trends, and inventory indicators.
-
----
-
-## Project Objectives
-
-The project focuses on turning raw operational data into useful merchant intelligence by:
-
-* Cleaning and validating transaction and inventory data.
-* Calculating business performance metrics.
-* Analyzing monthly sales and profit trends.
-* Evaluating inventory health.
-* Identifying inventory risk indicators.
-* Producing structured JSON outputs for frontend consumption.
-* Validating analytical results through automated checks.
-* Providing a reliable data layer for the React dashboard.
-
----
-
-## Business Questions
-
-The analytical pipeline is designed to answer questions such as:
-
-### Business Performance
-
-* What is the overall sales performance?
-* Which businesses generate the strongest sales performance?
-* How does revenue and profit vary across businesses?
-* What business-level KPIs can be used to monitor performance?
-
-### Sales Trends
-
-* How do sales and profit change over time?
-* Which months show stronger or weaker performance?
-* Are there meaningful trends in the available transaction data?
-
-### Inventory Intelligence
-
-* What is the current inventory position?
-* Which products have inventory-related risks?
-* Which businesses have potential inventory concerns?
-* What products require attention based on available stock information?
-
----
-
-## Analytical Outputs
-
-The Python pipeline generates six validated JSON deliverables:
-
-| Output                      | Purpose                                                     |
-| --------------------------- | ----------------------------------------------------------- |
-| `sales_summary.json`        | Overall sales KPIs and documented data-quality limitations  |
-| `business_performance.json` | Cleaned sales performance by business                       |
-| `monthly_trends.json`       | Valid-date monthly sales and profit trends                  |
-| `inventory_health.json`     | Inventory health metrics and business-level risk indicators |
-| `inventory_products.json`   | Cleaned product-level inventory records and stock flags     |
-| `validation_report.json`    | Reconciliation and data-quality validation results          |
-
-These outputs provide the analytical data layer used by the dashboard application.
-
----
-
-## Technology Stack
-
-### Analytics & Data Processing
-
-* **Python**
-* **Pandas**
-* **JSON**
-* **Jupyter / Python development environment**
-
-### Dashboard
-
-* **React**
-* Frontend data visualization and dashboard components
-
-### Development & Version Control
-
-* **Git**
-* **GitHub**
-
----
-
-## Python Analytics Pipeline
-
-The analytics layer is responsible for transforming the supplied raw datasets into structured, validated analytical outputs.
-
-The main processing stages include:
-
-1. Loading raw transaction and inventory data.
-2. Inspecting the source data.
-3. Handling data-quality issues.
-4. Cleaning and transforming relevant fields.
-5. Calculating business KPIs.
-6. Generating business performance metrics.
-7. Generating monthly sales and profit trends.
-8. Calculating inventory health indicators.
-9. Producing product-level inventory records.
-10. Running automated validation checks.
-11. Exporting the final analytical results as JSON.
-
-### Main source files
-
-```text
-analytics/
-├── src/
-│   ├── build_analytics.py
-│   └── test_analytics.py
-│
-└── output/
-    ├── sales_summary.json
-    ├── business_performance.json
-    ├── monthly_trends.json
-    ├── inventory_health.json
-    ├── inventory_products.json
-    └── validation_report.json
-```
-
----
-
-## Dashboard Integration
-
-The analytics pipeline and frontend are intentionally separated.
-
-The Python layer is responsible for:
-
-```text
-Raw Data → Cleaning → Analysis → Validation → JSON
-```
-
-The React layer is responsible for:
-
-```text
-JSON → Dashboard Components → Visualizations → User Interaction
-```
-
-This separation allows the analytical logic to remain independent from the dashboard interface while providing the frontend with structured and predictable data.
-
-The React dashboard can use the generated JSON outputs to populate:
-
-* KPI cards
-* Business performance charts
-* Monthly trend visualizations
-* Inventory health indicators
-* Product inventory tables
-* Business-level comparisons
-* Risk/alert sections
-
----
-
-## Important Analytical Limitation
-
-The supplied transaction log does **not** contain `product_id` or `quantity sold`, while the inventory dataset does not contain historical sales information.
-
-Because of this, the project does not calculate unsupported metrics such as:
-
-* Product-level units sold
-* Stock turnover rate
-* Fast-moving products based on sales
-* Sales-based dead stock
-* Product-level sales velocity
-
-Instead of estimating or inventing these metrics, the pipeline explicitly documents the limitation.
-
-This ensures that the dashboard presents metrics that can be supported by the available data.
-
----
-
-## Validation
-
-The project includes automated validation through:
-
-```text
-analytics/src/test_analytics.py
-```
-
-The validation process checks the generated analytical outputs and key KPI reconciliations.
-
-The completed validation run returned:
-
-```text
-ALL TESTS PASSED
-validation_status: PASS
-```
-
-This provides a basic quality-control layer between the analytical pipeline and the dashboard.
-
----
-
-## Project Structure
-
-```text
 merchant-analytics-inventory-dashboard/
-│
 ├── analytics/
-│   ├── src/
-│   │   ├── build_analytics.py
-│   │   └── test_analytics.py
-│   │
-│   └── output/
-│       ├── sales_summary.json
-│       ├── business_performance.json
-│       ├── monthly_trends.json
-│       ├── inventory_health.json
-│       ├── inventory_products.json
-│       └── validation_report.json
-│
-├── raw/
-│   └── [source datasets]
-│
-├── README.md
-└── [frontend application files]
+│   ├── raw/                  # anonymized raw merchant data
+│   ├── output/               # cleaned and aggregated JSON
+│   ├── sales_pipeline.py     # cleaning + sales KPIs
+│   ├── build_analytics.py    # builds the final JSON payloads
+│   └── test_analytics.py     # checks that the calculations are correct
+├── public/
+│   ├── validation_report.json
+│   └── inventory_products.json
+├── src/
+│   ├── assets/
+│   ├── Dashboard.jsx
+│   ├── Sales.jsx
+│   ├── Inventory.jsx
+│   ├── Insight.jsx
+│   ├── Layout.jsx
+│   ├── Side.jsx              # sidebar navigation
+│   ├── NotFound.jsx
+│   ├── ThemeToggle.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
 ```
 
-The repository structure may expand as the React dashboard development progresses.
+## Getting started
 
----
-
-## Running the Analytics Pipeline
-
-Clone the repository and navigate to the project directory.
-
-Run the analytics generation script:
+**Prerequisites:** Node.js 18+ and Python 3.10+.
 
 ```bash
-python analytics/src/build_analytics.py
+# 1. Clone the repository
+git clone https://github.com/miwts-ast/merchant-analytics-inventory-dashboard.git
+cd merchant-analytics-inventory-dashboard
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the dev server
+npm run dev
 ```
 
-Run the validation tests:
+Open the local URL shown in the terminal (usually `http://localhost:5173`).
+
+To create a production build:
 
 ```bash
-python analytics/src/test_analytics.py
+npm run build
+npm run preview
 ```
 
-Successful validation should produce:
+## Data pipeline
 
-```text
-ALL TESTS PASSED
+The dashboard does not calculate anything from raw data in the browser. Python does the heavy lifting first and exports small JSON files that React reads.
+
+**Cleaning steps**
+
+1. Drop invalid records: rows where `gross_sale_amount <= 0` or timestamps are corrupt.
+2. Standardize text: payment methods such as `bank_transfer` and `Bank Transfer` become one key; product titles are trimmed.
+3. Handle edge cases: returns, cancelled orders, and negative stock values.
+4. Aggregate: gross sales, margins (gross minus cost), monthly order counts, stock turnover, and dead-stock detection.
+
+**Outputs** (served from `public/`)
+
+| File                      | Used for                                              |
+| ------------------------- | ----------------------------------------------------- |
+| `validation_report.json`  | Overall totals (gross revenue, net margin, and so on) |
+| `inventory_products.json` | Inventory health and stock alerts                     |
+| Sales summary JSON        | Month-by-month sales figures for filtering            |
+
+**Regenerate the data**
+
+```bash
+pip install pandas
+python analytics/sales_pipeline.py
+python analytics/build_analytics.py
+python analytics/test_analytics.py
 ```
 
----
+## Business insights
 
-## Current Project Status
+Three findings from the merchant data. Replace the bracketed text with your real numbers.
 
-### Completed
+1. **[Insight title]:** [What you found, with the figure. Example: "Bank transfer accounts for X% of gross revenue, but card payments have the higher AOV."]
+2. **[Insight title]:** [Example: "X% of inventory value is dead stock, which suggests merchants need a clearance or promotion feature."]
+3. **[Insight title]:** [Example: "Revenue peaked in [month], while the number of orders stayed flat, meaning basket size grew rather than customer count."]
 
-* Raw data analysis
-* Data cleaning and transformation
-* Sales KPI development
-* Business performance analysis
-* Monthly trend analysis
-* Inventory health analysis
-* Product-level inventory processing
-* JSON analytical outputs
-* Automated validation
-* Git/GitHub project setup
+## How filtering works
 
-### In Progress
+The dashboard keeps one piece of filter state at the top and derives everything else from it, so the UI never gets out of sync.
 
-* React dashboard development
-* Frontend integration with analytical JSON outputs
-* Dashboard visualizations
-* Interactive filtering and navigation
-* Final dashboard refinement
+- **Single source of truth:** the selected month lives in one `useState` in `Dashboard.jsx`. Its default is `"all"`.
+- **Derived data with `useMemo`:** the filtered rows are computed with `useMemo` and depend only on `[month, salesSummary]`. They are recalculated when the filter or data changes, not on every render.
+- **All vs. month:** when the filter is `"all"`, KPIs come from the pre-computed report. When a month is selected, they come from that month's rows in the sales summary.
+- **Safe first render:** data is fetched in `useEffect`, so the components render a loader until the JSON arrives and use defaults (`?? 0`, `?? []`) so nothing crashes on `undefined`.
+- **One formatter:** currency is formatted once with `Intl.NumberFormat("en-NG", { currency: "NGN" })` and reused across all cards.
 
-### Planned
+## Team
 
-* Final dashboard deployment
-* Production-ready data integration
-* Additional analytical features where supported by the available data
+- **Data Analyst:** [Akinrinle Gbolahan]
+- **React Developer:** [Adekoya Daniel]
 
----
+## Git workflow
 
-## Collaboration
-
-This project separates the analytical and frontend responsibilities into two connected layers.
-
-### Analytics Layer
-
-Responsible for:
-
-* Data preparation
-* Data cleaning
-* Analytical calculations
-* KPI development
-* Validation
-* Structured JSON outputs
-
-### Frontend Layer
-
-Responsible for:
-
-* React application
-* Dashboard interface
-* Data visualization
-* Interactive components
-* User experience
-* Presentation of analytical results
-
-Together, these components form the Merchant Analytics & Inventory Intelligence Dashboard.
-
----
-
-## Project Goal
-
-The goal is to build a practical analytics platform that demonstrates how raw business data can move through a complete workflow:
-
-```text
-Raw Data
-   ↓
-Data Cleaning
-   ↓
-Analysis
-   ↓
-Validation
-   ↓
-Structured Data
-   ↓
-React Dashboard
-   ↓
-Business Intelligence
-```
-
-The project emphasizes **data accuracy, transparent analytical limitations, reproducibility, and practical dashboard integration** rather than simply producing static charts or isolated analysis scripts.
+Work is done on feature branches (`feature/data-pipeline`, `feature/dashboard-ui`) and merged into `main` through pull requests. `main` always holds the working version and is the branch deployed to Vercel.
