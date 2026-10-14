@@ -4,7 +4,7 @@ An interactive Business Intelligence dashboard for a B2B Sales & Inventory Manag
 
 **Live demo:** (https://analytic-dashboard-ten-gamma.vercel.app/)
 
-![Dashboard preview]<img width="1358" height="1616" alt="dashboard" src="https://github.com/user-attachments/assets/3c6496c4-a965-4eca-ae0c-b55dd5880376" />
+Dashboard preview <img width="1358" height="1616" alt="dashboard" src="https://github.com/user-attachments/assets/3c6496c4-a965-4eca-ae0c-b55dd5880376" />
 
 ## Contents
 
