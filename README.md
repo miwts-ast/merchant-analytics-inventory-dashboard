@@ -2,9 +2,9 @@
 
 An interactive Business Intelligence dashboard for a B2B Sales & Inventory Management platform. It turns raw merchant transaction logs and stock data into clear, filterable insights: revenue, profit margin, average order value, and inventory health.
 
-**Live demo:** [add your Vercel/Netlify link here]
+**Live demo:** (https://analytic-dashboard-ten-gamma.vercel.app/)
 
-![Dashboard preview](./screenshots/dashboard.png)
+![Dashboard preview]<img width="1358" height="1616" alt="dashboard" src="https://github.com/user-attachments/assets/3c6496c4-a965-4eca-ae0c-b55dd5880376" />
 
 ## Contents
 
@@ -136,8 +136,8 @@ The dashboard keeps one piece of filter state at the top and derives everything 
 
 ## Team
 
-- **Data Analyst:** [Akinrinle Gbolahan]
-- **React Developer:** [Adekoya Daniel]
+- **Data Analyst:** Akinrinle Gbolahan
+- **React Developer:** Adekoya Daniel
 
 ## Git workflow
 
