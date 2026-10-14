@@ -30,7 +30,7 @@ Dashboard preview <img width="1358" height="1616" alt="dashboard" src="https://g
 | -------------- | ------------------------------------ |
 | Data analytics | Python, Pandas                       |
 | Frontend       | React (Vite), Tailwind CSS, Recharts |
-| Deployment     | Vercel / Netlify                     |
+| Deployment     | Vercel                               |
 
 ## Project structure
 
